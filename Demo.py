@@ -26,7 +26,7 @@ df = user_input_features()
 st.subheader('User Input parameters')
 st.write(df)
 
-iris = pd.read_csv('https://github.com/hannahsyamimi/Demo/blob/main/IRIS.csv')
+iris = pd.read_csv('https://raw.githubusercontent.com/hannahsyamimi/Demo/main/IRIS.csv')
 X = iris.drop('species', axis = 1)
 Y = iris.species
 
